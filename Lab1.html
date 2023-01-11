@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style class="text/css">
+    .img {
+            height: 150px;
+            width: 266px;
+        }
+
+        .img-big {
+            height: 150px;
+            width: 556px;
+        }
+
+        .blue {
+            color: rgba(6, 138, 226, 0.774);
+            padding-top: 40px;
+            font-size: 40px;
+        }
+
+        .blue2 {
+            color: rgba(6, 138, 226, 0.774);
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .container {
+            background-color: cornsilk;
+        }
+        .btn {
+            background-color: black;
+            color: #f4f0f0;
+            width: 250px;
+            height: 70px;
+        }
+        .ctr{
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        .ctr2{
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluild">
+        <header class="row"><img src="anh/Banner.png" style="width: auto; height: auto;" alt=""></header>
+        <nav class="row">
+            <center><strong class="blue">Phiếu Đăng Kí Học</strong></center>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <strong class=" col-md-6 col-xl-12 title-item blue2">Thông tin thí sinh</strong>
+            <div class="row">
+                <div class="col-md-6 col-xl-3 "><label for="">Họ và tên</label>
+                    <input type="email" class="form-control" placeholder="Họ và tên">
+                </div>
+                <div class="col-md-6 col-xl-3 ">
+                    <label for="">Ngày sinh</label>
+                    <input type="email" class="form-control" placeholder="DD/MM/YYYY">
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <label for="">Giới tính</label>
+                    <select id="inputState" class="form-select">
+                        <option>Nam</option>
+                        <option>Nữ</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-xl-3 "><label for="">Dân tộc</label>
+                    <input type="email" class="form-control" placeholder="Kinh">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="ctr col-md-6 col-xl-4 ">
+                    <label for="">Số CMND</label>
+                    <input type="text" class="form-control" placeholder="012345678">
+                </div>
+                <div class="ctr col-md-6 col-xl-4 "><label for="">Ngày Cấp</label>
+                    <input type="email" class="form-control" placeholder="DD/MM/YYYY">
+                </div>
+                <div class="ctr col-md-6 col-xl-4 "><label for="">Nơi cấp</label>
+                    <input type="email" class="form-control" placeholder="Hà Nội, Hồ Chí Minh...">
+                </div>
+            </div>
+            <div class="row">
+                <label for="" style="font-weight: bold;">Hộ khẩu thường trú (Điền thông tin đầy đủ như trong sổ hộ
+                    khẩu)</label>
+                <div class="col-md-6 col-xl-3">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Chọn tỉnh/thành phố</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Quận huyện</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Xã/Phường/Thị trấn</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class=" col-md-6 col-xl-3 ">
+                    <label for=""></label>
+                    <input type="email" class="form-control" placeholder="Số nhà, đường, ngõ, xóm">
+                </div>
+            </div>
+            <div class="row">
+                <div class="ctr col-md-6 col-xl-3 "><label for="">Số điện thoại thí sinh</label>
+                    <input type="email" class="form-control" placeholder="012345678">
+                </div>
+                <div class="ctr col-md-6 col-xl-3 ">
+                    <label for="">Email thí sinh</label>
+                    <input type="email" class="form-control" placeholder="thanhldph22749@fpt.edu.vn">
+                </div>
+                <div class="ctr col-md-6 col-xl-3 ">
+                    <label for="">Họ tên phụ huynh/người bảo trợ</label>
+                    <input type="email" class="form-control" placeholder="Họ và tên">
+                </div>
+                <div class="ctr col-md-6 col-xl-3 "><label for="">SDT phụ huynh/người bảo trợ</label>
+                    <input type="email" class="form-control" placeholder="012345678">
+                </div>
+            </div>
+            <div class="row">
+                <strong class=" col-md-6 col-xl-12 title-item blue2">Thông tin đăng kí trường Cao Đẳng FPT Politechnic</strong>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xl-5">
+                    <label for="">Cơ sở nhập học</label>
+                    <select id="inputState" class="form-select">
+                        <option>Hà nội</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="col-md-6 col-xl-7"></div>
+
+            </div>
+            <div class="row">
+                <div class="ctr col-md-6 col-xl-3">
+                    <label for="">Nguyện vọng thứ nhất</label>
+                    <select id="inputState" class="form-select">
+                        <option>Chuyên ngành</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="ctr col-md-6 col-xl-3">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Ngành</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="ctr col-md-6 col-xl-3">
+                    <label for="">Nguyện vọng thứ hai</label>
+                    <select id="inputState" class="form-select">
+                        <option>Chuyên ngành</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="ctr col-md-6 col-xl-3">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Ngành</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ctr col-md-6 col-xl-6">
+                    <label for="">Năm tốt nghiệp tương đương</label>
+                    <select id="inputState" class="form-select">
+                        <option>2023</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="ctr col-md-6 col-xl-6 "><label for="">Trường tốt nghiệp THPT hoặc tương đương</label>
+                    <input type="text" class="form-control " placeholder="Trường">
+                </div>
+            </div>
+            <div class="row">
+                <div class="ctr col-md-6 col-xl-4">
+                    <label for="">Nơi tốt nghiệp</label>
+                    <select id="inputState" class="form-select">
+                        <option>Chọn tỉnh/thành phố</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="ctr col-md-6 col-xl-4">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Quận huyện</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="ctr col-md-6 col-xl-4">
+                    <label for=""></label>
+                    <select id="inputState" class="form-select">
+                        <option>Xã/Phường/Thị trấn</option>
+                        <option>Java</option>
+                        <option>PHP</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <strong class="col-md-3 col-xl-12 title-item blue2">THÔNG TIN NHẬN GIẤY BÁO KẾT QUẢ</strong>
+                </div>
+                <div class="row">
+
+                    <div class=" ctr2 col-md-6 col-xl-6">
+                        <label>Thí Sinh</label>
+                    </div>
+                    <div class="ctr2 col-md-6 col-xl-6">
+                        <label>Người Nhận</label>
+                    </div>
+                </div>
+                <div class=" ctr row">
+
+                    <div class="col-md-6 col-xl-6">
+
+                        <input class=" form-check-input" type="checkbox"> Thí sinh
+                    </div>
+                    <div class="col-md-6 col-xl-6">
+                        <input class="form-check-input" type="checkbox"> Phụ huynh/Người bảo trợ
+                    </div>
+                </div>
+                <div class="ctr row">
+                    <div class="col-md-6 col-xl-6">
+                        <input class="form-check-input" type="checkbox"> Địa chỉ hộ khẩu thường trú
+                    </div>
+
+                    <div class="col-md-6 col-xl-6">
+                        <input class="form-check-input" type="checkbox"> Khác
+                    </div>
+                </div>
+                <div class="row">
+                    <strong class="col-md-3 col-xl-12 title-item blue2">TẢI LÊN GIẤY TỜ XÁC THỰC</strong>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xl-3">
+                        <label>Ảnh CMT/CCCD mặt trước</label>
+                        <img class="img" src="anh/cccd-mt.png" alt="">
+
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <label>Ảnh CMT/CCCD mặt sau</label>
+                        <img class="img" src="anh/cccd-ms.png" alt="">
+
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="col-md-6 col-xl-6">
+                        <label>Bản sao công chứng Bằng tốt nghiệp THPT</label>
+                        <img class="img-big" src="anh/bang-tot-nghiep-thpt.png" alt="">
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                </div>
+                <strong class="col-md-3 col-xl-12 title-item blue2"></strong>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" />
+                            <label class="form-check-label" for="defaultCheck1">
+                                Tôi xin cam đoan những lời khai của tôi trên phiếu đăng ký này
+                                là đúng sự thật. Nếu sai tôi hoàn toàn chịu trách nhiệm và
+                                nhận xử lý theo Quy chế tuyển sinh cao đẳng hiện hành
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" />
+                            <label class="form-check-label" for="defaultCheck1">
+                                Tôi đã đọc kỹ và cam kết tuân thủ Quy định tài chính của nhà
+                                trường
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-xl-12" style="text-align: center;"><button class="btn btn-primary" type="submit">GỬI HỒ SƠ ĐĂNG KÝ</button></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>
